@@ -34,3 +34,8 @@ export const preferencesAsMap = (
   );
   return map;
 };
+
+// returns the value that represents all preferences enabled
+export const allPreferences = (): number =>
+  (Object.values(EmailPreference) as number[])
+    .reduce((acc, val) => acc | val, 0);

@@ -20,6 +20,7 @@ import {
 	removePreference,
 	hasPreference,
 	preferencesAsMap,
+	allPreferences,
 } from "pb-email-prefs";
 
 let prefs = 0;
@@ -37,6 +38,12 @@ prefs = removePreference(prefs, EmailPreference.Newsletter);
 // map all preference to booleans (for populating menus etc.)
 console.log(preferencesAsMap(prefs));
 // -> { Newsletter: false, ProductUpdates: false, Marketing: true, Events: false }
+
+// create a new preferences value which has allPreferences set to enabled.
+// example usage: creating a new user
+let maxPrefs = allPreferences();
+console.log(preferencesAsMap(prefs));
+// -> { Newsletter: true, ProductUpdates: true, Marketing: true, Events: true }
 ```
 
 ## License
