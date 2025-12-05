@@ -1,0 +1,13 @@
+{
+  "name": "pb-email-prefs",
+  "version": "1.0.0",
+  "description": "Shared email preferences utilities using bitmasks for use in PrayerBud",
+  "main": "dist/emailPrefs.js",
+  "types": "dist/emailPrefs.d.ts",
+  "scripts": {
+    "build": "tsc",
+	"prepare": "tsc"
+  },
+  "author": "Oliver Bryan",
+  "license": "MIT"
+}
