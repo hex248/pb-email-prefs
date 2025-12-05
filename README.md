@@ -7,9 +7,9 @@ Allows multiple toggle-able preferences to be stored in a single integer databas
 ## Install
 
 ```bash
-npm install https://github.com/hex248/pb-email-prefs.git
+npm install github:hex248/pb-email-prefs
 # or
-pnpm add https://github.com/hex248/pb-email-prefs.git
+pnpm add github:hex248/pb-email-prefs
 ```
 
 ## Usage
