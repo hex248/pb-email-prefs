@@ -45,7 +45,3 @@ let maxPrefs = allPreferences();
 console.log(preferencesAsMap(prefs));
 // -> { Newsletter: true, ProductUpdates: true, Marketing: true, Events: true }
 ```
-
-## License
-
-MIT License
