@@ -5,8 +5,8 @@
   "main": "dist/emailPrefs.js",
   "types": "dist/emailPrefs.d.ts",
   "scripts": {
-    "build": "tsc",
-	"prepare": "tsc"
+    "build": "pnpm exec tsc",
+    "prepare": "pnpm exec tsc"
   },
   "author": "Oliver Bryan",
   "license": "MIT"
